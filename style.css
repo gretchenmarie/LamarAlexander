@@ -2,7 +2,13 @@ h1 {
     color:blue;
     text-align: center;
     font-family: "arial", "helvetica", "sans-serif";
-
+    background: lightgray;
+    border-radius: 40px;
+    width: 75%;
+}
+h2{
+    text-align: center;
+    color: blue;
 }
 h3{
     text-align: center;
@@ -11,16 +17,21 @@ h3{
 h4{
     color:red;
     text-align: center;
+    
 }
 .componentone{
 background-color: gray;
-
+padding: 5em;
 }
 .componenttwo{
     background-color: lightgray;
+    padding: 6em;
+    
+
 }
 .componentthree{
     background-color: lightcyan;
+    padding: 8em;
 }
 .image{
     display: block;
@@ -35,7 +46,7 @@ nav {
     display: -webkit-flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
+    
     padding: .2em; 
     font-family: "Arial", "Helvetica", sans-serif;
 }
@@ -45,4 +56,28 @@ nav a {
 }
 nav a:hover {
     color:white;
+}
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightslategray;
+}
+
+.list {
+    float: left;
+}
+
+.list {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.list a:hover {
+    background-color: lightgray;
 }

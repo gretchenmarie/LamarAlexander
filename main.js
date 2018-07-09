@@ -1,7 +1,7 @@
 // selecting the DOM element
 let  target = document.querySelector ("#mission");
 // we are inserting content to the DOM
-target.innerHTML += `<div class = "subcomponentfour"> My mission is to serve the People of Tennessee.</div>`;
+target.innerHTML += `<div class = "subcomponentfour">" My mission is to serve the People of Tennessee."</div>`;
 
 
 // Get the element you want to add your new element before or after
