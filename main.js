@@ -12,7 +12,7 @@ var district = document.querySelector('#some-div');
 var div = document.createElement('div');
 
 // Add content to the new element
-div.innerHTML = 'Lamar Alexander represents the Tennessee';
+div.innerHTML = 'Lamar Alexander represents the state of Tennessee';
 
 // You could also add classes, IDs, and so on
 // div is a fully manipulatable DOM Node
